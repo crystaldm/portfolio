@@ -58,18 +58,7 @@ II. Design
       https://www.pinterest.com/pin/8303580536381386/
 
   2. Color Palette
-    * neutral; orange, burnt orange, beige, brown, white
-      https://www.pinterest.com/pin/403424079095799677/
-    * dark scheme/color pop; bright turquoise, variants of charcoal grey/black
-      https://www.pinterest.com/pin/403424079095799694/
-    * neutral/nautical colors; dark blue, sandy pink/rose pink, which
-      https://www.pinterest.com/pin/403424079095799554/
-    * monochromatic blue; different variant of deep blue
-      https://www.pinterest.com/pin/403424079095799399/
-    * greyscale/color pop; bright turquiose; greyscale images, light scheme
-      https://www.pinterest.com/pin/403424079095799309/
-    * one solid color; soft pink and white
-      https://www.pinterest.com/pin/403424079097472811/
+    * assets/portfolio-color-palletes.ai
 
 III. Timeline
 --------------------
