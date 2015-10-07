@@ -60,33 +60,48 @@ II. Design
   2. Color Palette
     * assets/portfolio-color-palletes.ai
 
+  3. Type Face
+    * existence light 
+      http://www.fontsquirrel.com/fonts/Existence-Light
+    * geometria
+      http://www.fontsquirrel.com/fonts/geometria
+    * gidole
+      http://www.fontsquirrel.com/fonts/gidole
+    * signika
+    * josefin sans
+    * karla
+
 III. Timeline
 --------------------
   Week 1: Inspiration & Concept
     ** design brief
+    ** bring photography
+    ** bring all portfolio pieces
     * choose general layout direction
     * two color palettes
-    * personal logo (draft)
-    * revised resume/business cards
+    * personal site id (type)
 
   Week 2: Design Direction
-    * style guide (2 versions)
-    * homepage comps (2 versions)
-    * refined logo
-    * refined resume/business cards
+    ** site map
+    ** wireframes
+    ** two style tyles
+    * site id (two versions)
 
   Week 3: Comps & Finished
-    * choose 1 style guide
-    * choose 1 comp and polish
-    * final logo
-    * final resume/business cards
+    ** design comps (two versions)
+    ** final site id
+    ** final style tyle
+    * draft resume/business cards (content)
 
   Week 4: Develop Site
+    ** finished resume/business cards (content)
     * code basic markup/structure
     * placeholder/general assets
     * refine project: Indulge Wellness Spa
 
   Week 5: Develop Site
+    ** business card (v1 design)
+    ** resume (v1 design)
     * continue basic markup/structure
     * styles & colors
     * site typography
@@ -94,6 +109,9 @@ III. Timeline
     * refine project: Averie J Photography
 
   Week 6: Develop Site
+   ** business card (final design)
+   ** resume design (final design)
+   ** print test for business card/resume
    * continue coding site (50% complete)
    * solid color palette
    * solid type
