@@ -14,18 +14,17 @@ I. Project List
             branding/redesign, ux/ui, marketing/business schematics
     * TODO: create process page
 
-  2. Indulge Wellness Spa
-    * TYPE: full website
-    * DESCRIPTION: mock spa business
-    * TAGS: branding, site design, responsive layout, ux/ui
-    * TODO: build full site, create process page, revise comps, credit images
+  2. Getting On
+    * TYPE: 
+    * DESCRIPTION: 
+    * TAGS:
+    * TODO: 
 
-  3. Hollywood Nightlife
-    * TYPE: google maps api
-    * DESCRIPTION: demonstrate knowledge of common api
-    * TAGS: google maps, api, javascript
-    * TODO: revise concept/functionality, create process page
-    > may be swapped out with a different project
+  3. Mission Impossible Rogue Nation
+    * TYPE:
+    * DESCRIPTION:
+    * TAGS:
+    * TODO:
 
   4. My Lil' CookBook
     * TYPE: app(tablet)/non functional
@@ -45,6 +44,24 @@ I. Project List
     * TAGS: portfolio, photography, interface design, branding, showcase
     * TODO: not yet in development, gather best photos, create branding, create process page
 
+  7. Dinotrux
+    * TYPE: HTML5 ad unit
+    * DESCRIPTION:
+    * TAGS:
+    * TODO:
+
+  8. Keith Richards
+    * TYPE:
+    * DESCRIPTION:
+    * TAGS:
+    * TODO:
+
+  9. Dawn of the Croods
+    * TYPE:
+    * DESCRIPTION:
+    * TAGS:
+    * TODO:
+
 II. Design
 --------------------
   1. Layout (TBD/inspiration sites)
@@ -61,29 +78,25 @@ II. Design
     * assets/portfolio-color-palletes.ai
 
   3. Type Face
-    * existence light 
-      http://www.fontsquirrel.com/fonts/Existence-Light
     * geometria
       http://www.fontsquirrel.com/fonts/geometria
-    * gidole
-      http://www.fontsquirrel.com/fonts/gidole
-    * signika
-    * josefin sans
     * karla
+    * lato
+    * poppins
 
 III. Timeline
 --------------------
   Week 1: Inspiration & Concept
     ** design brief
-    ** bring photography
+    ** show photography
     ** bring all portfolio pieces
-    * choose general layout direction
+    * choose general layout direction --
     * two color palettes
-    * personal site id (type)
+    * personal site id (type) --
 
   Week 2: Design Direction
     ** site map
-    ** wireframes
+    ** wireframes (homepage and portfolio page)
     ** two style tyles
     * site id (two versions)
 
