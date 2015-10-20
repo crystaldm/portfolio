@@ -15,16 +15,16 @@ I. Project List
     * TODO: create process page
 
   2. Getting On
-    * TYPE: 
-    * DESCRIPTION: 
-    * TAGS:
-    * TODO: 
-
-  3. Mission Impossible Rogue Nation
     * TYPE:
     * DESCRIPTION:
     * TAGS:
     * TODO:
+
+  3. Mission Impossible Rogue Nation
+    * TYPE: ad unit
+    * DESCRIPTION: digital campaign
+    * TAGS: paramount, advertising 
+    * TODO: iframe
 
   4. My Lil' CookBook
     * TYPE: app(tablet)/non functional
@@ -78,8 +78,6 @@ II. Design
     * assets/portfolio-color-palletes.ai
 
   3. Type Face
-    * geometria
-      http://www.fontsquirrel.com/fonts/geometria
     * karla
     * lato
     * poppins
@@ -87,17 +85,13 @@ II. Design
 III. Timeline
 --------------------
   Week 1: Inspiration & Concept
-    ** design brief
-    ** show photography
     ** bring all portfolio pieces
-    * choose general layout direction --
     * two color palettes
-    * personal site id (type) --
 
   Week 2: Design Direction
     ** site map
     ** wireframes (homepage and portfolio page)
-    ** two style tyles
+    ** two style tiles
     * site id (two versions)
 
   Week 3: Comps & Finished

@@ -1,0 +1,13 @@
+skills:
+html5, css(sass/compass), javascript, as3, php, command line, cms(wordpress/magento),
+adobe creative suite(photoshop/illustrator/indesign/after effects/media encoder),
+translate comp into working site
+
+strengths:
+refactoring code, responsive design, ux(ux maps/flow charts/personas),
+QA testing, alpha/beta tesing, print design, information architecture, adaptable,
+indepedent, teamwork, time managment, detail oriented
+
+weaknesses: browser compatability, seo, opp, overachiever(take on too much), impatient, site ids
+
+talents: art(pen/pencil/charocal/realistic/detailed), type fast 80+
