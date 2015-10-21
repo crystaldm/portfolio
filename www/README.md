@@ -91,8 +91,8 @@ III. Timeline
   Week 2: Design Direction
     ** site map
     ** wireframes (homepage and portfolio page)
-    ** two style tiles
-    * site id (two versions)
+    ** style tiles (2 version)
+    ** site id (2 version)
 
   Week 3: Comps & Finished
     ** design comps (two versions)
@@ -146,3 +146,9 @@ III. Timeline
   Week 10:
    * site complete
    * finishing touches
+
+IV. Sitemap
+--------------------
+Home ---- Work ---- Projects
+     ---- Resume
+     ---- Contact
