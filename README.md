@@ -14,18 +14,17 @@ I. Project List
             branding/redesign, ux/ui, marketing/business schematics
     * TODO: create process page
 
-  2. Indulge Wellness Spa
-    * TYPE: full website
-    * DESCRIPTION: mock spa business
-    * TAGS: branding, site design, responsive layout, ux/ui
-    * TODO: build full site, create process page, revise comps, credit images
+  2. Getting On
+    * TYPE:
+    * DESCRIPTION:
+    * TAGS:
+    * TODO: *add client logos
 
-  3. Hollywood Nightlife
-    * TYPE: google maps api
-    * DESCRIPTION: demonstrate knowledge of common api
-    * TAGS: google maps, api, javascript
-    * TODO: revise concept/functionality, create process page
-    > may be swapped out with a different project
+  3. Mission Impossible Rogue Nation
+    * TYPE: ad unit
+    * DESCRIPTION: digital campaign
+    * TAGS: paramount, advertising 
+    * TODO: iframe
 
   4. My Lil' CookBook
     * TYPE: app(tablet)/non functional
@@ -39,11 +38,29 @@ I. Project List
     * TAGS: HTML5, interactive game, branding
     * TODO: not yet in development, create process page
 
-  6. Averie J Photography
-    * TYPE: full website, portfolio
-    * DESCRIPTION: personal photography portfolio
-    * TAGS: portfolio, photography, interface design, branding, showcase
-    * TODO: not yet in development, gather best photos, create branding, create process page
+  8. Terminator Genysis
+    * TYPE: HTML5 ad unit
+    * DESCRIPTION:
+    * TAGS:
+    * TODO: *add client logos
+
+  7. Dinotrux
+    * TYPE: HTML5 ad unit
+    * DESCRIPTION:
+    * TAGS:
+    * TODO: *add client logos
+
+  8. Keith Richards
+    * TYPE:
+    * DESCRIPTION:
+    * TAGS:
+    * TODO: *add client logos
+
+  9. Dawn of the Croods
+    * TYPE:
+    * DESCRIPTION:
+    * TAGS:
+    * TODO: *add client logos
 
 II. Design
 --------------------
@@ -60,33 +77,38 @@ II. Design
   2. Color Palette
     * assets/portfolio-color-palletes.ai
 
+  3. Type Face
+    * karla
+    * lato
+    * poppins
+
 III. Timeline
 --------------------
   Week 1: Inspiration & Concept
-    ** design brief
-    * choose general layout direction
+    ** bring all portfolio pieces
     * two color palettes
-    * personal logo (draft)
-    * revised resume/business cards
 
   Week 2: Design Direction
-    * style guide (2 versions)
-    * homepage comps (2 versions)
-    * refined logo
-    * refined resume/business cards
+    ** site map
+    ** wireframes (homepage and portfolio page)
+    ** style tiles (2 version)
+    ** site id (2 version)
 
   Week 3: Comps & Finished
-    * choose 1 style guide
-    * choose 1 comp and polish
-    * final logo
-    * final resume/business cards
+    ** design comps (two versions)
+    ** final site id
+    ** final style tyle
+    * draft resume/business cards (content)
 
   Week 4: Develop Site
+    ** finished resume/business cards (content)
     * code basic markup/structure
     * placeholder/general assets
     * refine project: Indulge Wellness Spa
 
   Week 5: Develop Site
+    ** business card (v1 design)
+    ** resume (v1 design)
     * continue basic markup/structure
     * styles & colors
     * site typography
@@ -94,6 +116,9 @@ III. Timeline
     * refine project: Averie J Photography
 
   Week 6: Develop Site
+   ** business card (final design)
+   ** resume design (final design)
+   ** print test for business card/resume
    * continue coding site (50% complete)
    * solid color palette
    * solid type
@@ -121,3 +146,9 @@ III. Timeline
   Week 10:
    * site complete
    * finishing touches
+
+IV. Sitemap
+--------------------
+Home ---- Work ---- Projects
+     ---- Resume
+     ---- Contact
