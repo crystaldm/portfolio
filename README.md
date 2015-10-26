@@ -64,23 +64,17 @@ I. Project List
 
 II. Design
 --------------------
-  1. Layout (TBD/inspiration sites)
-    * one pager, light-box, simple text, greyscale, color pops on hover
-      https://www.pinterest.com/pin/403424079097472762/
-    * full/wide pages, grid of projects, greyscale/monochromatic, delicate text
-      https://www.pinterest.com/pin/403424079097472827/
-    * minimalist, small text/large headings, magazine/lookbook, large images
-      https://www.pinterest.com/pin/298504281530530482/
-    * project grid, boxy/sharp, small text/uppercase
-      https://www.pinterest.com/pin/8303580536381386/
+  1. One page grid
+    * grid layout for projects
+    * intro splash page
+    * lightbox for projects
 
   2. Color Palette
-    * assets/portfolio-color-palletes.ai
+    * assets/style-tile-v1.psd
 
   3. Type Face
-    * karla
-    * lato
     * poppins
+    * gotham
 
 III. Timeline
 --------------------

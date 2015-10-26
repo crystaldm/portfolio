@@ -15,10 +15,10 @@ I. Project List
     * TODO: create process page
 
   2. Getting On
-    * TYPE:
-    * DESCRIPTION:
-    * TAGS:
-    * TODO:
+    * TYPE: ad unit
+    * DESCRIPTION: digital campaign
+    * TAGS: paramount, advertising 
+    * TODO: iframe
 
   3. Mission Impossible Rogue Nation
     * TYPE: ad unit
@@ -45,22 +45,22 @@ I. Project List
     * TODO: not yet in development, gather best photos, create branding, create process page
 
   7. Dinotrux
-    * TYPE: HTML5 ad unit
-    * DESCRIPTION:
-    * TAGS:
-    * TODO:
+    * TYPE: ad unit
+    * DESCRIPTION: digital campaign
+    * TAGS: paramount, advertising 
+    * TODO: iframe
 
   8. Keith Richards
-    * TYPE:
-    * DESCRIPTION:
-    * TAGS:
-    * TODO:
+    * TYPE: ad unit
+    * DESCRIPTION: digital campaign
+    * TAGS: paramount, advertising 
+    * TODO: iframe
 
   9. Dawn of the Croods
-    * TYPE:
-    * DESCRIPTION:
-    * TAGS:
-    * TODO:
+    * TYPE: ad unit
+    * DESCRIPTION: digital campaign
+    * TAGS: paramount, advertising 
+    * TODO: iframe
 
 II. Design
 --------------------
