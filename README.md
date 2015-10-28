@@ -23,7 +23,7 @@ I. Project List
   3. Mission Impossible Rogue Nation
     * TYPE: ad unit
     * DESCRIPTION: digital campaign
-    * TAGS: paramount, advertising 
+    * TAGS: paramount, advertising
     * TODO: iframe
 
   4. My Lil' CookBook
