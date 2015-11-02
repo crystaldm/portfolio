@@ -1,21 +1,36 @@
-// variables
+var projectThumb;
+var lightbox;
 
-// function init()
 function init() {
-  // get document by ids
+  projectThumb      = document.getElementsByClassName('thumbnail');
+  lightbox          = document.getElementById('lightbox');
 
   // addImages();
-  // addListeners();
+  addListeners();
 }
 
-// function addListeners()
 function addListeners() {
-  // add event listeners
+  for(var i=0; i < projectThumb.length; i++) {
+    projectThumb[i].addEventListener("click", lightboxHandler, false);
+  }
 }
 
-// function addImages()
 function addImages() {
   // add images dynamically
 }
 
-//init();
+function lightboxHandler(event) {
+  lightbox.className = '';
+  dataThumb = event.target.parentNode.getAttribute('data-thumb');
+  dataProject = event.target.parentNode.getAttribute('data-project');
+
+  // if(dataThumb == 02) {
+  //   lightbox.className = '';
+  //   document.getElementById('inner-project-c-02').className = '';
+  //   console.log(dataThumb);
+  // }
+
+  console.log(dataThumb);
+ }
+
+init();

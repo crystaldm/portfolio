@@ -3,6 +3,20 @@
 
 ////////////////////////////////
 ////////////// GLOBAL VARIABLES
+$body-color: #666666;
+$body-font: 'Poppins', sans-serif;
+
+$header-weight: 600;
+$header-size: 1.5em;
+
+$subheader-weight: 500;
+$subheader-size: 1em;
+
+$p-weight: 500;
+$p-size: 0.7em;
+
+$lightbox-bg-color: #e6e6e6;
+
 
 
 ////////////////////////////////
@@ -19,9 +33,37 @@
 ////////////////// MOBILE STYLES
 
 // general ///////////
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
 
 // body
+h1 {
+  font-family: $body-font;
+  font-weight: $header-weight;
+  font-size: $header-size;
+  color: $body-color;
+  text-transform: uppercase;
+}
 
+h2 {
+  font-family: $body-font;
+  font-weight: $subheader-weight;
+  font-size: $subheader-size;
+  color: $body-color;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+p {
+  font-family: $body-font;
+  font-weight: $p-weight;
+  font-size: $p-size;
+  color: $body-color;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+}
 
 // header ////////////
 
@@ -35,11 +77,38 @@
 // portfolio /////////
 
 // lightbox
+#lightbox {
+  //TODO: add blur filter on bg when toggled
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  &.hidden {
+    display: none;
+  }
+}
 
 // thumbnails
+.thumbnail {
+  cursor: pointer;
+}
 
 // project content
+#project-item {
+  background-color: $lightbox-bg-color;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+}
 
+#project-content {
+  width: 100%;
+  margin: 0 auto;
+}
 
 // footer ////////////
 
