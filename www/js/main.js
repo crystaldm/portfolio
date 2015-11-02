@@ -24,11 +24,15 @@ function lightboxHandler(event) {
   dataThumb = event.target.parentNode.getAttribute('data-thumb');
   dataProject = event.target.parentNode.getAttribute('data-project');
 
-  // if(dataThumb == 02) {
-  //   lightbox.className = '';
-  //   document.getElementById('inner-project-c-02').className = '';
-  //   console.log(dataThumb);
-  // }
+  if(dataThumb == 01) {
+    lightbox.className = '';
+    var test = document.getElementById('project-item-01');
+    test.className = 'fadein';
+  } else if(dataThumb == 02) {
+    lightbox.className = '';
+    var test = document.getElementById('project-item-02');
+    test.className = 'fadein';
+  }
 
   console.log(dataThumb);
  }

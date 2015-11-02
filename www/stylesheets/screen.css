@@ -124,15 +124,25 @@ p {
 }
 
 /* line 101, ../sass/screen.scss */
-#project-item {
+#project-item-01, #project-item-02 {
+  display: none;
   background-color: #e6e6e6;
   width: 80%;
   margin: 0 auto;
   padding: 1em;
 }
-
 /* line 108, ../sass/screen.scss */
+#project-item-01.fadein, #project-item-02.fadein {
+  display: block;
+}
+
+/* line 113, ../sass/screen.scss */
 #project-content {
   width: 100%;
   margin: 0 auto;
+}
+
+/* line 118, ../sass/screen.scss */
+#inner-project-c-01, #inner-project-c02 {
+  display: none;
 }

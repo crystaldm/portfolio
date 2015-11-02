@@ -98,16 +98,29 @@ p {
 }
 
 // project content
-#project-item {
+#project-item-01, #project-item-02 {
+  display: none;
   background-color: $lightbox-bg-color;
   width: 80%;
   margin: 0 auto;
   padding: 1em;
+
+  &.fadein {
+    display: block;
+  }
 }
 
 #project-content {
   width: 100%;
   margin: 0 auto;
+}
+
+#inner-project-c-01, #inner-project-c02 {
+  display: none;
+
+  // &.fadeout {
+  //   display: block;
+  // }
 }
 
 // footer ////////////
