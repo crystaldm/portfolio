@@ -17,13 +17,13 @@ I. Project List
   2. Getting On
     * TYPE: ad unit
     * DESCRIPTION: digital campaign
-    * TAGS: paramount, advertising 
+    * TAGS: paramount, advertising
     * TODO: iframe
 
   3. Mission Impossible Rogue Nation
     * TYPE: ad unit
     * DESCRIPTION: digital campaign
-    * TAGS: paramount, advertising 
+    * TAGS: paramount, advertising
     * TODO: iframe
 
   4. My Lil' CookBook
@@ -47,19 +47,19 @@ I. Project List
   7. Dinotrux
     * TYPE: ad unit
     * DESCRIPTION: digital campaign
-    * TAGS: paramount, advertising 
+    * TAGS: paramount, advertising
     * TODO: iframe
 
   8. Keith Richards
     * TYPE: ad unit
     * DESCRIPTION: digital campaign
-    * TAGS: paramount, advertising 
+    * TAGS: paramount, advertising
     * TODO: iframe
 
   9. Dawn of the Croods
     * TYPE: ad unit
     * DESCRIPTION: digital campaign
-    * TAGS: paramount, advertising 
+    * TAGS: paramount, advertising
     * TODO: iframe
 
 II. Design
@@ -78,9 +78,11 @@ II. Design
     * assets/portfolio-color-palletes.ai
 
   3. Type Face
-    * karla
-    * lato
+    * gotham
     * poppins
+
+  4. Resume
+    * https://creativemarket.com/sz81/320615-Best-Resume
 
 III. Timeline
 --------------------

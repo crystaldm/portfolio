@@ -20,19 +20,12 @@ function addImages() {
 }
 
 function lightboxHandler(event) {
-  lightbox.className = '';
   dataThumb = event.target.parentNode.getAttribute('data-thumb');
   dataProject = event.target.parentNode.getAttribute('data-project');
-
-  if(dataThumb == 01) {
-    lightbox.className = '';
-    var test = document.getElementById('project-item-01');
-    test.className = 'fadein';
-  } else if(dataThumb == 02) {
-    lightbox.className = '';
-    var test = document.getElementById('project-item-02');
-    test.className = 'fadein';
-  }
+  var projName = "project-item-" + dataThumb;
+  var test = document.getElementById(projName);
+  lightbox.className = '';
+  test.className = 'fadein';
 
   console.log(dataThumb);
  }
