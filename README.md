@@ -91,7 +91,7 @@ III. Timeline
   Week 3: Comps & Finished
     ** design comps (two versions)
     ** final site id
-    ** final style tyle
+    ** final style tile
     * draft resume/business cards (content)
 
   Week 4: Develop Site

@@ -1,0 +1,267 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: portfolio-comps.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 1024 px x 1100 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:
+GothamBook (not installed)
+GothamLight (not installed)
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Gotham-Light (OTF)
+Poppins (OTF)
+Poppins Medium (OTF)
+Poppins Bold (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/dinotrux-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 160K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/paramount-logo.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 2343K, 800 by 750 pixels
+Dimensions: 122.551 by 114.891 points 
+Resolution: 470.009 by 470.009 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/portfolio-project-thumbnails.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 328K, 400 by 280 pixels
+Dimensions: 280 by 196 points 
+Resolution: 102.857 by 102.857 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/thumb-overlay/overlay.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 214K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/pn-icon.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4K, 40 by 40 pixels
+Dimensions: 40 by 40 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/li-icon.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4K, 40 by 40 pixels
+Dimensions: 40 by 40 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/in-icon.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4K, 40 by 40 pixels
+Dimensions: 40 by 40 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/fb-icon.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4K, 40 by 40 pixels
+Dimensions: 40 by 40 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/cindy-t-jewelry-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 160K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/mylilcookbook-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 160K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/terminator-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 160K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/keith-richards-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 160K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/dinotrux-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 160K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/portfolio-project-thumbnails.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 328K, 400 by 280 pixels
+Dimensions: 280 by 196 points 
+Resolution: 102.857 by 102.857 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/polygon-texture-medium.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 703K, 600 by 400 pixels
+Dimensions: 1032.065 by 688.043 points 
+Resolution: 41.858 by 41.858 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/polygon-texture-medium.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 703K, 600 by 400 pixels
+Dimensions: 1032.065 by 688.043 points 
+Resolution: 41.858 by 41.858 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/thumb-overlay/overlay.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 214K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/pn-icon.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4K, 40 by 40 pixels
+Dimensions: 40 by 40 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/li-icon.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4K, 40 by 40 pixels
+Dimensions: 40 by 40 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/in-icon.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4K, 40 by 40 pixels
+Dimensions: 40 by 40 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/fb-icon.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4K, 40 by 40 pixels
+Dimensions: 40 by 40 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/cindy-t-jewelry-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 160K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/mylilcookbook-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 160K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/terminator-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 160K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/freelance/Desktop/portfolio/assets/comp-images/keith-richards-thumbnail.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 160K, 280 by 196 pixels
+Dimensions: 280 by 196 points 
+Resolution: 72 by 72 pixels per inch
