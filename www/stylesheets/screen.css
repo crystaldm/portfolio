@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,56 +20,56 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 #container {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -78,7 +78,7 @@ h1 {
   text-transform: uppercase;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -88,7 +88,7 @@ h2 {
   margin-bottom: 1em;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -98,51 +98,211 @@ p {
   margin-bottom: 0.3em;
 }
 
-/* line 73, ../sass/screen.scss */
-.download-btn {
-  cursor: pointer;
+/* line 74, ../sass/screen.scss */
+#header {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+/* line 77, ../sass/screen.scss */
+#header.blur-out {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
+.site-id {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  border-bottom: thin solid #16a98f;
+}
+/* line 90, ../sass/screen.scss */
+.site-id img {
+  width: 100%;
+}
+
+/* line 96, ../sass/screen.scss */
+.download-btn {
+  cursor: pointer;
+  display: block;
+  color: #16a98f;
+  font-weight: 500;
+  border: medium solid #16a98f;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2em;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* line 111, ../sass/screen.scss */
+.download-btn:hover {
+  -moz-transition: background-color 0.4s ease-in;
+  -o-transition: background-color 0.4s ease-in;
+  -webkit-transition: background-color 0.4s ease-in;
+  transition: background-color 0.4s ease-in;
+  background-color: #16a98f;
+  color: #fff;
+}
+
+/* line 121, ../sass/screen.scss */
+#close {
+  cursor: pointer;
+  color: #c4e4dd;
+  display: block;
+  width: 10px;
+}
+
+/* line 129, ../sass/screen.scss */
+.arrows {
+  cursor: pointer;
+  color: #c4e4dd;
+}
+
+/* line 135, ../sass/screen.scss */
 #lightbox {
-  position: absolute;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  -moz-transition: opacity 0.2s ease-in;
+  -o-transition: opacity 0.2s ease-in;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  -moz-animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  pointer-events: inherit;
+  position: fixed;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
   height: 100%;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* line 90, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #lightbox.hidden {
-  display: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
+#thumbnail-c {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+/* line 158, ../sass/screen.scss */
+#thumbnail-c.blur-out {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+/* line 163, ../sass/screen.scss */
 .thumbnail {
   cursor: pointer;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+/* line 169, ../sass/screen.scss */
+.thumbnail img {
+  width: 100%;
 }
 
-/* line 101, ../sass/screen.scss */
-#project-item-01, #project-item-02 {
+/* line 175, ../sass/screen.scss */
+#project-item-01, #project-item-02, #project-item-03, #project-item-04, #project-item-05, #project-item-06, #project-item-07, #project-item-08, #project-item-09 {
   display: none;
   background-color: #e6e6e6;
   width: 80%;
   margin: 0 auto;
   padding: 1em;
 }
-/* line 108, ../sass/screen.scss */
-#project-item-01.fadein, #project-item-02.fadein {
+/* line 182, ../sass/screen.scss */
+#project-item-01.fadein, #project-item-02.fadein, #project-item-03.fadein, #project-item-04.fadein, #project-item-05.fadein, #project-item-06.fadein, #project-item-07.fadein, #project-item-08.fadein, #project-item-09.fadein {
   display: block;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 #project-content {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 118, ../sass/screen.scss */
-#inner-project-c-01, #inner-project-c02 {
-  display: none;
+/* line 193, ../sass/screen.scss */
+.netflix-logo {
+  background-image: url("../imgs/netflix-logo.png");
+  width: 50px;
+  height: 14px;
+  float: right;
+}
+/* line 199, ../sass/screen.scss */
+.netflix-logo img {
+  width: 100%;
+}
+
+/* line 204, ../sass/screen.scss */
+.paramount-logo {
+  background-image: url("../imgs/paramount-logo.png");
+  width: 50px;
+  height: 47px;
+  float: right;
+}
+/* line 210, ../sass/screen.scss */
+.paramount-logo img {
+  width: 100%;
+}
+
+/* line 216, ../sass/screen.scss */
+#footer {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+  width: 90%;
+  margin: 0 auto;
+  border-top: thin solid #16a98f;
+  padding-top: 1em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+/* line 225, ../sass/screen.scss */
+#footer.blur-out {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+/* line 231, ../sass/screen.scss */
+.social {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+/* line 237, ../sass/screen.scss */
+.social-media {
+  color: #16a98f;
+  cursor: pointer;
+  display: inline-block;
+  border: thin solid #16a98f;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  text-align: center;
+}
+/* line 248, ../sass/screen.scss */
+.social-media:hover {
+  -moz-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  -webkit-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+  background-color: #16a98f;
+  color: #fff;
+}
+
+/* line 256, ../sass/screen.scss */
+.contact {
+  text-align: center;
 }
