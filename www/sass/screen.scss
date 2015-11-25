@@ -65,7 +65,8 @@ p {
   font-size: $p-size;
   color: $body-color;
   text-transform: uppercase;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.7em;
+  line-height: 1.5em;
 }
 
 // header ////////////
@@ -139,7 +140,7 @@ p {
   pointer-events: inherit;
   position: fixed;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
   padding-top: 2em;
@@ -259,3 +260,33 @@ p {
 
 ////////////////////////////////
 ////////////////////////////////
+
+////////////////////////////////
+///////////////// DESKTOP STYLES
+
+@media (min-width: 480px) {
+  // general ////////////
+
+  // header ////////////
+
+  // site id
+  .site-id {
+    width: 20%;
+    margin: 0;
+    border: none;
+  }
+
+  // portfolio /////////
+   #thumbnail-c {
+     width: 80%;
+     margin: 0 auto;
+   }
+
+  // thumbnails
+  .thumbnail {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    padding: 0 1em 1em 1em;
+  }
+}
