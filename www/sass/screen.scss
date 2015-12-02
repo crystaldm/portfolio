@@ -1,3 +1,4 @@
+@import "compass";
 @import "compass/reset";
 @import "compass/css3";
 
@@ -5,6 +6,7 @@
 ////////////// GLOBAL VARIABLES
 $primary-color: #16a98f;
 $secondary-color: #c4e4dd;
+$highlight-color: #29f8de;
 
 $body-color: #666666;
 $body-font: 'Poppins', sans-serif;
@@ -27,6 +29,33 @@ $lightbox-bg-color: #e6e6e6;
 
 ////////////////////////////////
 /////////// KEYFRAME ANIMATIONS
+@include keyframes(fade-in) {
+    0% {
+      @include opacity(0);
+      @include filter(blur(6px));
+    }
+    100% {
+      @include opacity(0.8);
+      @include filter(blur(0));
+      top: 0;
+    }
+}
+
+@include keyframes(shine-in) {
+    0% {
+      @include opacity(1);
+      left: -50px;
+      bottom: -40px;
+    }
+    80% {
+      @include opacity(1);
+    }
+    100% {
+      @include opacity(0);
+      left: 120px;
+      bottom: -50px;
+    }
+}
 
 
 ////////////////////////////////
@@ -73,6 +102,7 @@ p {
 
 //header
 #header {
+  width: 100%;
   @include filter(blur(0));
 
   &.blur-out {
@@ -230,7 +260,7 @@ p {
 
 // social
 .social {
-  width: 40%;
+  width: 47%;
   display: block;
   margin: 0 auto;
   margin-bottom: 1em;
@@ -269,11 +299,38 @@ p {
 
   // header ////////////
 
+  //header
+  #header {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    overflow: hidden;
+  }
   // site id
   .site-id {
     width: 20%;
     margin: 0;
+    padding-left: 1em;
     border: none;
+    clear: both;
+    float: left;
+  }
+
+  // download resume btn
+  .download-btn {
+    cursor: pointer;
+    display: block;
+    color: $primary-color;
+    font-weight: 500;
+    border: medium solid $primary-color;
+    font-family: $body-font;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2em;
+    width: 200px;
+    float: right;
+    margin: 5em 1.5em 0em 0em;
   }
 
   // portfolio /////////
@@ -286,7 +343,68 @@ p {
   .thumbnail {
     position: relative;
     display: inline-block;
+    overflow: hidden;
     width: 30%;
-    padding: 0 1em 1em 1em;
+    margin: 0 1em 2em 1em;
+
+    &:hover {
+      .thumb-overlay {
+        @include animation(fade-in 0.4s ease-in);
+        @include animation-fill-mode(both);
+      }
+
+      .shine {
+        @include animation(shine-in 1s ease-in);
+        @include animation-fill-mode(forwards);
+        @include animation-delay(0.4s)
+      }
+    }
   }
+
+  .thumb-overlay {
+    @include opacity(0);
+    pointer-events: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(37, 233, 191, 0.8);
+
+    h1, h2 {
+      color: #ffffff;
+      position: absolute;
+      bottom: 8px;
+      left: 15px;
+      line-height: 30px;
+    }
+
+    h1 {
+      font-size: 1em;
+    }
+  }
+
+  .shine {
+    @include filter(blur(10px));
+    position: absolute;
+    left: -50px;
+    width: 40px;
+    height: 60px;
+    background-color: $highlight-color;
+  }
+
+  // footer ////////////
+  #footer p {
+    font-size: 1em;
+  }
+
+  // social
+  .social {
+    width: 15%;
+  }
+
+  .social-media {
+    font-size: 1.5em;
+  }
+
 }
