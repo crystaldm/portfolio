@@ -5,6 +5,7 @@ var lightbox;
 var headerC;
 var thumbnailC;
 var footer;
+var lightboxChildren;
 
 function init() {
   projectThumb        = document.getElementsByClassName('thumbnail');
@@ -14,12 +15,21 @@ function init() {
   headerC             = document.getElementById('header');
   thumbnailC          = document.getElementById('thumbnail-c');
   footer              = document.getElementById('footer');
+  lightboxChildren    = document.getElementById('lightbox').childNodes[0];
 
   addListeners();
 }
 
 function addListeners() {
   closeBtn.addEventListener("click", closeLightbox, false);
+  lightbox.addEventListener("click", closeLightbox, false);
+  lightboxChildren.removeEventListener("click", closeLightbox, false);
+//   var nodes = document.getElementById('ID_of_parent').childNodes;
+// for(var i=0; i<nodes.length; i++) {
+//     if (nodes[i].nodeName.toLowerCase() == 'div') {
+//          nodes[i].style.background = color;
+//      }
+// }
   downloadBtn.addEventListener("click", downloadFile, false);
 
   for(var i=0; i < projectThumb.length; i++) {
