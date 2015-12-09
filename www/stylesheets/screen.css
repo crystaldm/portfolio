@@ -339,7 +339,19 @@ p {
   width: 100%;
 }
 
-/* line 242, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
+.syfy-logo {
+  background-image: url("../imgs/syfy-logo.png");
+  width: 50px;
+  height: 27px;
+  float: right;
+}
+/* line 247, ../sass/screen.scss */
+.syfy-logo img {
+  width: 100%;
+}
+
+/* line 253, ../sass/screen.scss */
 #footer {
   -webkit-filter: blur(0);
   filter: blur(0);
@@ -350,13 +362,13 @@ p {
   margin-top: 2em;
   margin-bottom: 1em;
 }
-/* line 251, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 #footer.blur-out {
   -webkit-filter: blur(5px);
   filter: blur(5px);
 }
 
-/* line 257, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 .social {
   width: 47%;
   display: block;
@@ -364,7 +376,7 @@ p {
   margin-bottom: 1em;
 }
 
-/* line 263, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 .social-media {
   color: #16a98f;
   cursor: pointer;
@@ -376,7 +388,7 @@ p {
   padding-bottom: 0.2em;
   text-align: center;
 }
-/* line 274, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 .social-media:hover {
   -moz-transition: background-color 0.3s ease-in;
   -o-transition: background-color 0.3s ease-in;
@@ -386,28 +398,28 @@ p {
   color: #fff;
 }
 
-/* line 282, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 .contact {
   text-align: center;
 }
 
-/* line 288, ../sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 .thumb-overlay {
   display: none;
 }
 
-/* line 292, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 #close {
   display: none;
 }
 
-/* line 296, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .mobile-only {
   display: block;
 }
 
 @media (min-width: 480px) {
-  /* line 312, ../sass/screen.scss */
+  /* line 323, ../sass/screen.scss */
   #header {
     width: 80%;
     margin: 0 auto;
@@ -416,7 +428,7 @@ p {
     overflow: hidden;
   }
 
-  /* line 320, ../sass/screen.scss */
+  /* line 331, ../sass/screen.scss */
   .site-id {
     width: 20%;
     margin: 0;
@@ -426,7 +438,7 @@ p {
     float: left;
   }
 
-  /* line 330, ../sass/screen.scss */
+  /* line 341, ../sass/screen.scss */
   .download-btn {
     cursor: pointer;
     display: block;
@@ -442,7 +454,7 @@ p {
     margin: 6em 3.4em 0em 0em;
   }
 
-  /* line 346, ../sass/screen.scss */
+  /* line 357, ../sass/screen.scss */
   #close {
     display: block;
     cursor: pointer;
@@ -454,13 +466,13 @@ p {
     margin: 0em 3em 0em 0em;
   }
 
-  /* line 358, ../sass/screen.scss */
+  /* line 369, ../sass/screen.scss */
   #thumbnail-c {
     width: 80%;
     margin: 0 auto;
   }
 
-  /* line 364, ../sass/screen.scss */
+  /* line 375, ../sass/screen.scss */
   .thumbnail {
     position: relative;
     display: inline-block;
@@ -468,7 +480,7 @@ p {
     width: 30%;
     margin: 0 1em 2em 1em;
   }
-  /* line 372, ../sass/screen.scss */
+  /* line 383, ../sass/screen.scss */
   .thumbnail:hover .thumb-overlay {
     -moz-animation: fade-in 0.5s ease-in;
     -webkit-animation: fade-in 0.5s ease-in;
@@ -477,7 +489,7 @@ p {
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
   }
-  /* line 377, ../sass/screen.scss */
+  /* line 388, ../sass/screen.scss */
   .thumbnail:hover .shine {
     -moz-animation: shine-in 1.7s ease-in;
     -webkit-animation: shine-in 1.7s ease-in;
@@ -490,7 +502,7 @@ p {
     animation-delay: 0.2s;
   }
 
-  /* line 385, ../sass/screen.scss */
+  /* line 396, ../sass/screen.scss */
   .thumb-overlay {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
@@ -502,7 +514,7 @@ p {
     width: 100%;
     height: 99%;
   }
-  /* line 395, ../sass/screen.scss */
+  /* line 406, ../sass/screen.scss */
   .thumb-overlay h1, .thumb-overlay h2 {
     color: #ffffff;
     position: absolute;
@@ -510,12 +522,12 @@ p {
     left: 15px;
     line-height: 30px;
   }
-  /* line 403, ../sass/screen.scss */
+  /* line 414, ../sass/screen.scss */
   .thumb-overlay h1 {
     font-size: 1em;
   }
 
-  /* line 408, ../sass/screen.scss */
+  /* line 419, ../sass/screen.scss */
   .shine {
     -moz-transform: rotate(-25deg);
     -ms-transform: rotate(-25deg);
@@ -531,22 +543,22 @@ p {
     background-color: #29f8de;
   }
 
-  /* line 420, ../sass/screen.scss */
+  /* line 431, ../sass/screen.scss */
   #footer p {
     font-size: 1em;
   }
 
-  /* line 425, ../sass/screen.scss */
+  /* line 436, ../sass/screen.scss */
   .social {
-    width: 15%;
+    width: 13%;
   }
 
-  /* line 429, ../sass/screen.scss */
+  /* line 440, ../sass/screen.scss */
   .social-media {
     font-size: 1.5em;
   }
 
-  /* line 434, ../sass/screen.scss */
+  /* line 445, ../sass/screen.scss */
   .mobile-only {
     display: none;
   }
