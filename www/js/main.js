@@ -5,17 +5,17 @@ var lightbox;
 var headerC;
 var thumbnailC;
 var footer;
-var lightboxChildren;
+var iFrameSrc;
 
 function init() {
   projectThumb        = document.getElementsByClassName('thumbnail');
+  iFrameSrc           = document.getElementsByClassName('iframe-src');
   closeBtn            = document.getElementById('close');
   downloadBtn         = document.getElementById('download-btn');
   lightbox            = document.getElementById('lightbox');
   headerC             = document.getElementById('header');
   thumbnailC          = document.getElementById('thumbnail-c');
   footer              = document.getElementById('footer');
-  lightboxChildren    = document.getElementById('lightbox').childNodes[0];
 
   addListeners();
 }
@@ -23,13 +23,7 @@ function init() {
 function addListeners() {
   closeBtn.addEventListener("click", closeLightbox, false);
   lightbox.addEventListener("click", closeLightbox, false);
-  lightboxChildren.removeEventListener("click", closeLightbox, false);
-//   var nodes = document.getElementById('ID_of_parent').childNodes;
-// for(var i=0; i<nodes.length; i++) {
-//     if (nodes[i].nodeName.toLowerCase() == 'div') {
-//          nodes[i].style.background = color;
-//      }
-// }
+
   downloadBtn.addEventListener("click", downloadFile, false);
 
   for(var i=0; i < projectThumb.length; i++) {
@@ -67,6 +61,11 @@ function closeLightbox() {
   headerC.className = '';
   thumbnailC.className = '';
   footer.className = '';
+
+  // TODO: replace src
+  for(var x=0; x < iFrameSrc.length; x++) {
+    // iFrameSrc[x].src = 'none';
+  }
 }
 
 function downloadFile() {
