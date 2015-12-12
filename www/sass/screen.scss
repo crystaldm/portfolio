@@ -217,6 +217,18 @@ p {
   position: relative;
 }
 
+// project content
+.project-example-item {
+  display: block;
+  margin: 0;
+  width: 100%;
+
+  img {
+    border: thin solid #c7c7c7;
+    width: 100%;
+  }
+}
+
 // client logos
 .netflix-logo {
   background-image: url('../imgs/netflix-logo.png');
@@ -324,6 +336,11 @@ p {
 
 .mobile-only {
   display: block;
+}
+
+// fixes ////////////
+.ad-layout-fix {
+  margin: 0;
 }
 
 ////////////////////////////////
@@ -446,6 +463,18 @@ p {
     background-color: $highlight-color;
   }
 
+  // project content
+  .project-example-item {
+    display: inline-block;
+    margin: 1em;
+    width: 47%;
+
+    img {
+      border: thin solid #c7c7c7;
+      width: 100%;
+    }
+  }
+
   // footer ////////////
   #footer p {
     font-size: 1em;
@@ -463,6 +492,14 @@ p {
   // hidden elements ////////////
   .mobile-only {
     display: none;
+  }
+
+  // fixes ////////////
+  .ad-layout-fix {
+    width: 250px;
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-right: 4em;
   }
 
 }

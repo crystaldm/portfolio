@@ -58,11 +58,11 @@ Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
 });
 
 function initEB() {
-  if (!EB.isInitialized()) {
-    EB.addEventListener(EBG.EventName.EB_INITIALIZED, politeInit);
-  } else {
+  // if (!EB.isInitialized()) {
+  //   EB.addEventListener(EBG.EventName.EB_INITIALIZED, politeInit);
+  // } else {
     politeInit();
-  }
+  // }
 }
 
 function politeInit() {
