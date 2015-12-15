@@ -99,6 +99,10 @@ p {
   line-height: 1.5em;
 }
 
+a {
+  text-decoration: none;
+}
+
 // header ////////////
 
 //header
@@ -125,7 +129,7 @@ p {
 }
 
 // download resume btn
-.download-btn {
+.btn {
   cursor: pointer;
   display: block;
   color: $primary-color;
@@ -373,7 +377,7 @@ p {
   }
 
   // download resume btn
-  .download-btn {
+  .btn {
     cursor: pointer;
     display: block;
     color: $primary-color;
@@ -386,6 +390,20 @@ p {
     width: 200px;
     float: right;
     margin: 6em 3.4em 0em 0em;
+  }
+
+  // visit site btn
+  #site-btn {
+    float: none;
+    margin-top: 1em;
+    color: #fff;
+    background-color: $primary-color;
+
+    &:hover {
+      @include transition(background-color 0.4s ease-in);
+      background-color: #fff;
+      color: $primary-color;
+    }
   }
 
   //close button
@@ -449,6 +467,11 @@ p {
     h1 {
       font-size: 1em;
       bottom: 25px;
+    }
+
+    .boq {
+      position: absolute;
+      top: 10px;
     }
   }
 
